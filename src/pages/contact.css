@@ -1,0 +1,96 @@
+/* contact.css */
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.contact-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.social {
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.logo-leetcode {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+  margin-right: 5px; /* Adjust the margin as needed */
+}
+
+
+
+/* styles.css */
+.wrapper-section {
+  padding: 9rem 0 5rem 0;
+  text-align: center;
+}
+
+.form {
+  margin-top: 6rem;
+}
+
+.contact-form {
+  max-width: 50rem;
+  margin: auto;
+}
+
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.contact-inputs input[type="submit"] {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.contact-inputs input[type="submit"]:hover {
+  /* Since the theme is being used, you might need to define these colors separately */
+  background-color: /* Your theme colors */;
+  border: /* Your theme colors */;
+  color: /* Your theme colors */;
+  transform: scale(0.9);
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:rgb(23,133,115);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(52,69,77);
+}
+
+.button:hover {background-color: rgb(23,133,115)}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
