@@ -119,9 +119,8 @@ const Projects = () => {
               <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
           </div>
           </div>
-          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaXXptBqOar_BEgi-MqyLYrsfaoVlXfpFzPqAR62UeGg&s
+          hi
 
-        // +4 more cards
         </div>
       {/* </div> */}
       <div className='work-container'>
