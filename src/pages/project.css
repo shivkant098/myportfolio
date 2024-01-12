@@ -12,14 +12,15 @@
   margin-bottom: 100px;
 }
 
-.skills-container{
+.skills-container {
   width: 95%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);  /* Rows instead of columns */
   grid-gap: 100px;
   color: #fff;
 }
+
 
 .skill-card{
   position: relative;
