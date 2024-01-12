@@ -193,7 +193,7 @@ const Projects = () => {
                       </span>
                     </a>
                     <a
-                      href=""
+                      href="#as"
                       target="_blank"
                       rel="noreferrer"
                     >
