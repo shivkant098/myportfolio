@@ -106,9 +106,9 @@ const Projects = () => {
       <div className='work-container'>
 
         <div className="section">
-        <h1 style={{ textAlign: 'center', fontWeight: 800 }} className="a2">
-  Projects
-</h1>
+          <h1 style={{ textAlign: 'center', fontWeight: 800 }} className="a2">
+            Projects
+          </h1>
           <div className="allProjects">
             <div className="projects_container" data-aos="fade-right">
               <div className="project">
@@ -123,8 +123,8 @@ const Projects = () => {
                 <div className="project_information">
                   <h2>Study Notion</h2>
                   <p>
-                  StudyNotion is a fully functional EdTech platform that enables users to create, consume, and rate educational content.
-                  StudyNotion aims to provide a seamless and interactive learning experience for students, making education more accessible and engaging. Additionally, the platform serves as a platform for instructors to showcase their expertise and connect with learners across the globe.
+                    StudyNotion is a fully functional EdTech platform that enables users to create, consume, and rate educational content.
+                    StudyNotion aims to provide a seamless and interactive learning experience for students, making education more accessible and engaging. Additionally, the platform serves as a platform for instructors to showcase their expertise and connect with learners across the globe.
 
 
                   </p>
@@ -171,7 +171,7 @@ const Projects = () => {
                 <div className="project_information">
                   <h2>Modern Weather App</h2>
                   <p>Developed a weather application by integrating an open API, showcasing real-time humidity data and a comprehensive 10-day weather forecast.
-                  Created a distinctive visual representation of weather data by integrating color variations while ensuring accurate data integration.
+                    Created a distinctive visual representation of weather data by integrating color variations while ensuring accurate data integration.
                   </p>
                   <div>
                     <DiCss3 />
@@ -180,7 +180,7 @@ const Projects = () => {
                   </div>
                   <div>
                     <a
-                    href='https://modern-weather-app.vercel.app/'
+                      href='https://modern-weather-app.vercel.app/'
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -203,21 +203,25 @@ const Projects = () => {
             </div>
             <div className="projects_container" data-aos="fade-right">
               <div className="project">
+                {/* <div className="project_videocontainer"> */}
                 <div className="project_videocontainer">
                   <div>
-                    <img src="https://i.ibb.co/2Nq2NKT/Screenshot-2023-11-17-17-40-59.png" alt="" />
+                    <img
+                      src="https://i.ibb.co/fF8pMXn/Screenshot-2024-01-10-21-58-43.png"
+                      alt="organic store"
+                    />
                   </div>
                 </div>
                 <div className="project_information">
                   <h2>Vidyarthi Khata</h2>
                   <p>
-                  Developed a web application enabling users to efficiently monitor and track their expenses. Implemented intuitive features for easy expense management, providing users with a seamless platform to oversee and analyze their financial activities in real-time.
-                  Empowering financial control with a comprehensive expense monitoring web application.
+                    Developed a web application enabling users to efficiently monitor and track their expenses. Implemented intuitive features for easy expense management, providing users with a seamless platform to oversee and analyze their financial activities in real-time.
+                    Empowering financial control with a comprehensive expense monitoring web application.
 
 
                   </p>
                   <div>
-                  <DiCss3 />
+                    <DiCss3 />
                     <SiHtml5 />
                     <IoLogoJavascript />
                   </div>
@@ -240,12 +244,12 @@ const Projects = () => {
                         View Code
                       </span>
                     </a>
-                   </div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* <div className="projects_container" data-aos="fade-right"> 
+            {/* <div className="projects_container" data-aos="fade-right">
               <div className="project">
                 <div className="project_videocontainer">
                   <div>
@@ -289,23 +293,21 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="projects_container" data-aos="fade-right">
               <div className="project">
                 <div className="project_videocontainer">
                   <div>
                     <img
-                      src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
-                      alt="Uniqlo-Clone"
+                      src="https://i.ibb.co/3CGCfSK/Screenshot-2024-01-10-21-45-27.png"
+                      alt="organic store"
                     />
                   </div>
                 </div>
                 <div className="project_information">
-                  <h2>Uniqlo Clone</h2>
+                  <h2>Organic Store</h2>
                   <p>
-                    UNIQLO is a clothing apparel company, from Japan. They also
-                    sell their products in online mode through their website. We
-                    cloned their website.
+                    
                   </p>
                   <div>
                     <SiNodedotjs />
@@ -316,7 +318,7 @@ const Projects = () => {
                   </div>
                   <div>
                     <a
-                      href="https://uniqlo-clone.netlify.app/"
+                      href="#a"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -325,7 +327,7 @@ const Projects = () => {
                       </span>
                     </a>
                     <a
-                      href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
+                      href="https://github.com/golu098/test-1"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -360,7 +362,7 @@ const Projects = () => {
                   </div>
                   <div>
                     <a
-                      href="https://pulseplus-clone.netlify.app/landing_page.html"
+                      href="https://pulseplus.vercel.app/"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -369,7 +371,7 @@ const Projects = () => {
                       </span>
                     </a>
                     <a
-                      href="https://github.com/Shreyasgkhakal100/www.pulseplus.in-Clone"
+                      href="https://github.com/golu098/pulseplus"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -379,17 +381,15 @@ const Projects = () => {
                     </a>
                   </div>
                 </div>
-              </div> */}
-            {/* </div>
+              </div>
+            </div>
           </div>
-        </div> */}
-
-</div>
-
-</div>
+        </div>
 
       </div>
+
     </div>
+
   );
 }
 
