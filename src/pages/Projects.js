@@ -4,7 +4,8 @@ import { FaReact, FaHardHat } from "react-icons/fa";
 import {
   SiBlockchaindotcom as a,
   SiHtml5,
-  SiMaterialui,
+  SiTailwindcss,
+  // SiMaterialui,
   SiChai as b,
   SiEthereum as c,
   SiExpress,
@@ -133,6 +134,7 @@ const Projects = () => {
                     <SiExpress />
                     <SiMongodb />
                     <FaReact />
+                    <SiTailwindcss/>
                     {/* <SiMaterialui /> */}
                   </div>
                   <div>
@@ -158,6 +160,52 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+
+
+            <div className="projects_container" data-aos="fade-right">
+              <div className="project">
+                <div className="project_videocontainer">
+                  <div>
+                    <img
+                      src="https://i.ibb.co/0KCTSNK/Screenshot-2023-11-17-17-35-54.png"
+                      alt="Sight Stream"
+                    />
+                  </div>
+                </div>
+                <div className="project_information">
+                  <h2>Sight Stream App</h2>
+
+<p>I've developed a comprehensive video calling chat app that seamlessly integrates features such as real-time messaging, high-quality video calls, and screen sharing. With a user-friendly interface and robust functionality, users can engage in dynamic conversations, making it a versatile platform for both personal and professional communication. Experience a smooth and immersive communication experience with our app's innovative features and reliable performance.                  </p>
+                  <div>
+                    <DiCss3 />
+                    <SiHtml5 />
+                    <IoLogoJavascript />
+                    <SiTailwindcss/>
+                  </div>
+                  <div>
+                    <a
+                      href='https://sightstream.vercel.app/'
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span type="button" className="btns onbt">
+                        See this Live
+                      </span>
+                    </a>
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span type="button" className="btns onbt">
+                        View Code
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="projects_container" data-aos="fade-right">
               <div className="project">
                 <div className="project_videocontainer">
@@ -201,6 +249,8 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+
+
             <div className="projects_container" data-aos="fade-right">
               <div className="project">
                 {/* <div className="project_videocontainer"> */}
@@ -224,6 +274,7 @@ const Projects = () => {
                     <DiCss3 />
                     <SiHtml5 />
                     <IoLogoJavascript />
+                    <SiTailwindcss/>
                   </div>
                   <div>
                     <a
@@ -315,6 +366,7 @@ const Projects = () => {
                     <SiMongodb />
                     <SiHtml5 />
                     <DiCss3 />
+                    <SiTailwindcss/>
                   </div>
                   <div>
                     <a
@@ -359,6 +411,7 @@ const Projects = () => {
                     <DiCss3 />
                     <SiHtml5 />
                     <IoLogoJavascript />
+                    <SiTailwindcss/>
                   </div>
                   <div>
                     <a
