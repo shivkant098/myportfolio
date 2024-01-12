@@ -81,7 +81,7 @@ const Projects = () => {
         <h1 class="heading">skills</h1>
         <div class="skills-container">
           <div class="skill-card">
-            <img src="img/html.png" class="skill-img" alt=""/>
+            <img src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" class="skill-img" alt=""/>
               <div class="skill-level">98%</div>
               <h1 class="skill-name">HTML</h1>
               <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
@@ -89,13 +89,38 @@ const Projects = () => {
           </div>
           <div class="skills-container">
           <div class="skill-card">
-            <img src="img/html.png" class="skill-img" alt=""/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx-uWDsU66uequfmgmpsZZ6P8Bk3NNIyOJcTg1tpFnMg&s" class="skill-img" alt=""/>
               <div class="skill-level">98%</div>
-              <h1 class="skill-name">HTML</h1>
+              <h1 class="skill-name">CSS</h1>
               <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
           </div>
           </div>
-          
+          <div class="skills-container">
+          <div class="skill-card">
+            <img src="https://e7.pngegg.com/pngimages/490/824/png-clipart-product-design-logo-brand-trademark-javascript-logo-text-trademark-thumbnail.png"alt="js_logo"/>
+              <div class="skill-level">88%</div>
+              <h1 class="skill-name">Javascript</h1>
+              <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+          </div>
+          </div>
+          <div class="skills-container">
+          <div class="skill-card">
+            <img src='https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png' alt='logo'/>
+              <div class="skill-level">90%</div>
+              <h1 class="skill-name">ReactJs</h1>
+              <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+          </div>
+          </div>
+          <div class="skills-container">
+          <div class="skill-card">
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaXXptBqOar_BEgi-MqyLYrsfaoVlXfpFzPqAR62UeGg&s' alt='logo'/>
+              <div class="skill-level">78%</div>
+              <h1 class="skill-name">NodeJS</h1>
+              <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+          </div>
+          </div>
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaXXptBqOar_BEgi-MqyLYrsfaoVlXfpFzPqAR62UeGg&s
+
         // +4 more cards
         </div>
       {/* </div> */}
