@@ -4,6 +4,7 @@ import { faBriefcase,  faStar } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import "./about.css";
+import Footer from './Footer';
 const workIcon = {
   icon: <FontAwesomeIcon icon={faBriefcase} />,
   iconStyle: { background: 'black', color: 'white' }
@@ -45,6 +46,7 @@ const About = () => {
 
 
   return (
+    <>
     <div>
       <div className='about-intro'>
         <div className='about-img'>
@@ -145,6 +147,8 @@ const About = () => {
       </div>
     </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 

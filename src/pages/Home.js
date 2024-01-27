@@ -61,14 +61,18 @@ const Home = () => {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src="https://media.licdn.com/dms/image/D5603AQGF7vaV_vRmRQ/profile-displayphoto-shrink_200_200/0/1703516266542?e=1711584000&v=beta&t=3Tsl_e_E2g8-rJX4ZZnBGyJGfEVwXQqimqCcK0FDUPk" className="img-fluid" alt="avatar" />
+              <img src="https://i.ibb.co/VWXKjDP/image.png"  style={{borderRadius:'6rem'}} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
         </Container>
         </Container>
-        <Footer/>
+
+        <div>        <Footer/>
+
+          </div>
         </>
+        
     
   )
 }

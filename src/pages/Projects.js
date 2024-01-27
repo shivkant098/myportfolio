@@ -1,6 +1,6 @@
 import React from 'react';
 import "./project.css";
-
+import Footer from './Footer';
 import { FaReact } from "react-icons/fa";
 import Techstack from './Techstack';
 import Toolstack from './Toolstack';
@@ -441,7 +441,7 @@ See this Live
         </div>
 
       </div>
-
+<Footer/>
     </>
 
   );
