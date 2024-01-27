@@ -5,7 +5,6 @@ import { FaReact } from "react-icons/fa";
 import Techstack from './Techstack';
 import Toolstack from './Toolstack';
 import Github from "./Github";
-import Leetcode from "./Leetcode";
 
 import { BsGithub } from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
@@ -145,7 +144,7 @@ See this Live
                 <div className="project_videocontainer">
                   <div>
                     <img
-                      src="https://i.ibb.co/0KCTSNK/Screenshot-2023-11-17-17-35-54.png"
+                      src="https://i.ibb.co/fvJyQkH/image.png"
                       alt="Sight Stream"
                     />
                   </div>
@@ -177,7 +176,7 @@ See this Live
     </button>
   </a>
   <a
-    href="https://github.com/golu098/StudyNotionMERN"
+    href="https://github.com/shivkant098/sightstream"
     target="_blank"
     rel="noreferrer"
   >
@@ -353,7 +352,7 @@ See this Live
                 <div className="project_information">
                   <h2>Organic Store</h2>
                   <p>
-
+Developed a dynamic and user-friendly web application for an organic store, offering a diverse range of products including fresh vegetables, fruits, juices, and handmade crafts. Implemented features such as product categorization, user authentication, and an intuitive shopping cart system, enhancing the overall user experience. Employed modern web technologies to create a seamless and visually appealing platform for users to explore and purchase organic and artisanal items.
                   </p>
                   <div>
                   <SiHtml5 />
