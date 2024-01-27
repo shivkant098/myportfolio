@@ -369,7 +369,7 @@ See this Live
                      </div>
                      <div>
   <a
-                      href='https://sightstream.vercel.app/'
+                      href='https://organicstore-two.vercel.app/'
                       target="_blank"
     rel="noreferrer"
   >
