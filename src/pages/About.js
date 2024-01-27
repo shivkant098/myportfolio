@@ -18,6 +18,13 @@ const About = () => {
   const timeline = [
     {
       icon: workIcon,
+      date: 'Mar 2022-Present',
+      title: 'Freelancer',
+      subtitle: 'Freelancing',
+      desc:'In my freelancing journey, I specialize in crafting innovative applications and conducting thorough data analysis. With a keen eye for detail and a passion for technology, I excel in developing user-friendly applications that cater to specific needs. ',
+    },
+    {
+      icon: workIcon,
       date: 'Nov 2021 - Feb 2022',
       title: 'Project Manager Intern',
       subtitle: 'Olcademy',
