@@ -5,7 +5,6 @@ import { FaReact } from "react-icons/fa";
 import Techstack from './Techstack';
 import Toolstack from './Toolstack';
 import Github from "./Github";
-
 import { BsGithub } from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
 
@@ -68,8 +67,6 @@ const Projects = () => {
   Days <strong style={{ color: 'purple' }}>I Code </strong>
 </h1>
 <Github/>
-    <h1>Leetcode</h1>
-    <Leetcode/>
 
 
       {/* </div> */}
@@ -124,7 +121,7 @@ See this Live
     target="_blank"
     rel="noreferrer"
   >
-    {/* &nbsp;&nbmsp;&nbsp; */}
+    {/* &nbsp;&nbsp;&nbsp; */}
         <button type="button" class="btns1 green">
         < CgWebsite className="demo-icon"/>
 
@@ -144,7 +141,7 @@ See this Live
                 <div className="project_videocontainer">
                   <div>
                     <img
-                      src="https://i.ibb.co/fvJyQkH/image.png"
+                      src="https://i.ibb.co/wWxfFfg/Screenshot-2024-01-28-00-57-44.png"
                       alt="Sight Stream"
                     />
                   </div>
@@ -352,7 +349,7 @@ See this Live
                 <div className="project_information">
                   <h2>Organic Store</h2>
                   <p>
-Developed a dynamic and user-friendly web application for an organic store, offering a diverse range of products including fresh vegetables, fruits, juices, and handmade crafts. Implemented features such as product categorization, user authentication, and an intuitive shopping cart system, enhancing the overall user experience. Employed modern web technologies to create a seamless and visually appealing platform for users to explore and purchase organic and artisanal items.
+                  Developed a dynamic and user-friendly web application for an organic store, offering a diverse range of products including fresh vegetables, fruits, juices, and handmade crafts. Implemented features such as product categorization, user authentication, and an intuitive shopping cart system, enhancing the overall user experience. Employed modern web technologies to create a seamless and visually appealing platform for users to explore and purchase organic and artisanal items.
                   </p>
                   <div>
                   <SiHtml5 />
@@ -404,9 +401,7 @@ See this Live
                 <div className="project_information">
                   <h2>PulsePlus Clone</h2>
                   <p>
-                    PulsePlus is an E-commerce web application for online Buying
-                    Medicines and Consult to Doctor and Book a near Testlab.
-                  </p>
+                  PulsePlus revolutionizes healthcare access through its E-commerce platform, facilitating the seamless purchase of medicines online. Beyond just a pharmaceutical hub, users can consult with healthcare professionals and conveniently book diagnostic tests at nearby laboratories. With a user-friendly interface and robust features, PulsePlus aims to enhance the accessibility and efficiency of healthcare services, bringing the pharmacy, doctor's consultation, and diagnostic testing all under one digital roof.                  </p>
                   <div>
                     <DiCss3 />
                     <SiHtml5 />
