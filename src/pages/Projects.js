@@ -69,6 +69,7 @@ const Projects = () => {
   Days <strong style={{ color: 'purple' }}>I Code </strong>
 </h1>
 <Github/>
+    <h1>Leetcode</h1>
     <Leetcode/>
 
 
