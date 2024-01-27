@@ -7,7 +7,6 @@ import Toolstack from './Toolstack';
 import Github from "./Github";
 import { BsGithub } from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
-
 // import {
 //   DiJavascript1,
 //   DiReact,
@@ -112,7 +111,7 @@ const Projects = () => {
     rel="noreferrer"
   >
     <button type="button" class="btns1 green">
-    <BsGithub className="github-icon" />
+    <CgWebsite className="github-icon" />
 See this Live
     </button>
   </a>
@@ -123,7 +122,8 @@ See this Live
   >
     {/* &nbsp;&nbsp;&nbsp; */}
         <button type="button" class="btns1 green">
-        < CgWebsite className="demo-icon"/>
+        <  BsGithub
+ className="demo-icon"/>
 
        View Code
     </button>
@@ -168,7 +168,8 @@ See this Live
     rel="noreferrer"
   >
     <button type="button" class="btns1 green">
-    <BsGithub className="github-icon" />
+    <CgWebsite 
+ className="github-icon" />
 See this Live
     </button>
   </a>
@@ -179,7 +180,8 @@ See this Live
   >
     {/* &nbsp;&nbsp;&nbsp; */}
         <button type="button" class="btns1 green">
-        < CgWebsite className="demo-icon"/>
+        <  BsGithub
+ className="demo-icon"/>
 
        View Code
     </button>
@@ -216,7 +218,8 @@ See this Live
     rel="noreferrer"
   >
     <button type="button" class="btns1 green">
-    <BsGithub className="github-icon" />
+    <CgWebsite 
+ className="github-icon" />
 See this Live
     </button>
   </a>
@@ -227,7 +230,8 @@ See this Live
   >
     {/* &nbsp;&nbsp;&nbsp; */}
         <button type="button" class="btns1 green">
-        < CgWebsite className="demo-icon"/>
+        <  BsGithub
+ className="demo-icon"/>
 
        View Code
     </button>
@@ -270,7 +274,8 @@ See this Live
     rel="noreferrer"
   >
     <button type="button" class="btns1 green">
-    <BsGithub className="github-icon" />
+    <CgWebsite 
+ className="github-icon" />
 See this Live
     </button>
   </a>
@@ -281,7 +286,8 @@ See this Live
   >
     {/* &nbsp;&nbsp;&nbsp; */}
         <button type="button" class="btns1 green">
-        < CgWebsite className="demo-icon"/>
+        <BsGithub
+ className="demo-icon"/>
 
        View Code
     </button>
@@ -368,7 +374,8 @@ See this Live
     rel="noreferrer"
   >
     <button type="button" class="btns1 green">
-    <BsGithub className="github-icon" />
+    <CgWebsite 
+ className="github-icon" />
 See this Live
     </button>
   </a>
@@ -379,7 +386,8 @@ See this Live
   >
     {/* &nbsp;&nbsp;&nbsp; */}
         <button type="button" class="btns1 green">
-        < CgWebsite className="demo-icon"/>
+        <  BsGithub
+ className="demo-icon"/>
 
        View Code
     </button>
@@ -415,7 +423,8 @@ See this Live
     rel="noreferrer"
   >
     <button type="button" class="btns1 green">
-    <BsGithub className="github-icon" />
+    <CgWebsite 
+ className="github-icon" />
 See this Live
     </button>
   </a>
@@ -426,7 +435,8 @@ See this Live
   >
     {/* &nbsp;&nbsp;&nbsp; */}
         <button type="button" class="btns1 green">
-        < CgWebsite className="demo-icon"/>
+        <  BsGithub
+ className="demo-icon"/>
 
        View Code
     </button>
