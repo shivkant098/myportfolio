@@ -1,127 +1,74 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import "./project.css";
-import { FaReact, FaHardHat } from "react-icons/fa";
+import Footer from './Footer';
+import { FaReact } from "react-icons/fa";
+import Techstack from './Techstack';
+import Toolstack from './Toolstack';
+import Github from "./Github";
+import { BsGithub } from "react-icons/bs";
+import { CgWebsite } from "react-icons/cg";
+
+// import {
+//   DiJavascript1,
+//   DiReact,
+//   DiNodejs,
+//   DiMongodb,
+//   DiPython,
+//   DiGit,
+//   DiJava,
+// } from "react-icons/di";
+// import {
+//   SiRedis,
+//   SiFirebase,
+//   SiNextdotjs,
+//   SiSolidity,
+//   SiPostgresql,
+// } from "react-icons/si";
+
 import {
-  SiBlockchaindotcom as a,
   SiHtml5,
   SiTailwindcss,
   // SiMaterialui,
-  SiChai as b,
-  SiEthereum as c,
   SiExpress,
-  SiSocketdotio as d,
-  SiTailwindcss as e,
-  SiReactrouter as f,
-  SiJavascript as g,
+  SiReactrouter,
   SiMongodb,
   SiNodedotjs,
+  SiReact,
+  SiApifox,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
+// import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 
 const Projects = () => {
 
-  useEffect(() => {
-    const planets = document.querySelectorAll('.planet');
-    const p_radii = [22, 33, 50, 70, 112, 138, 165, 190];
-    let p_radians = new Array(8).fill(0);
-    const p_velocities = [1.607, 1.174, 1, 0.802, 0.434, 0.323, 0.228, 0.182];
-
-    const moon = document.querySelector('#moon');
-    const m_radius = 8;
-    let m_radians = 0;
-    const m_velocity = 10;
-
-    const p_orbits = document.querySelectorAll('.p-orbit');
-    const m_orbit = document.querySelector('#m-orbit');
-
-    p_orbits.forEach((p_orbit, index) => {
-      p_orbit.style.height = `${p_radii[index]}vmin`;
-      p_orbit.style.width = `${p_radii[index]}vmin`;
-    });
-
-    const animationInterval = setInterval(() => {
-      planets.forEach((planet, index) => {
-        planet.style.left = `${Math.cos(p_radians[index]) * p_radii[index]}vmin`;
-        planet.style.top = `${Math.sin(p_radians[index]) * p_radii[index]}vmin`;
-        p_radians[index] += p_velocities[index] * 0.01;
-      });
-
-      // moon.style.left = `${earthX() + (Math.cos(m_radians) * m_radius)}vmin`;
-      // moon.style.top = `${earthY() + (Math.sin(m_radians) * m_radius)}vmin`;
-      // m_radians += m_velocity * 0.02;
-
-      m_orbit.style.left = `${earthX()}vmin`;
-      m_orbit.style.top = `${earthY()}vmin`;
-    }, 1000 / 60);
-
-    return () => {
-      clearInterval(animationInterval);
-    };
-  }, []);
-
-  function earthX() {
-    const earthIndex = 2;
-    const planets = document.querySelectorAll('.planet');
-    return Number(planets[earthIndex].style.left.split('vmin')[0]);
-  }
-
-  function earthY() {
-    const earthIndex = 2;
-    const planets = document.querySelectorAll('.planet');
-    return Number(planets[earthIndex].style.top.split('vmin')[0]);
-  }
+  
+      
 
 
   return (
 
     <>
-      <div class="skill-section">
-        <h1 class="heading">skills</h1>
-        <div class="skills-container">
-          <div class="skill-card">
-            <img src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" class="skill-img" alt=""/>
-              <div class="skill-level">98%</div>
-              <h1 class="skill-name">HTML</h1>
-              <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
-          </div>
-          </div>
-          <div class="skills-container">
-          <div class="skill-card">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx-uWDsU66uequfmgmpsZZ6P8Bk3NNIyOJcTg1tpFnMg&s" class="skill-img" alt=""/>
-              <div class="skill-level">98%</div>
-              <h1 class="skill-name">CSS</h1>
-              <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
-          </div>
-          </div>
-          <div class="skills-container">
-          <div class="skill-card">
-            <img src="https://e7.pngegg.com/pngimages/490/824/png-clipart-product-design-logo-brand-trademark-javascript-logo-text-trademark-thumbnail.png"alt="js_logo"/>
-              <div class="skill-level">88%</div>
-              <h1 class="skill-name">Javascript</h1>
-              <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
-          </div>
-          </div>
-          <div class="skills-container">
-          <div class="skill-card">
-            <img src='https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png' alt='logo'/>
-              <div class="skill-level">90%</div>
-              <h1 class="skill-name">ReactJs</h1>
-              <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
-          </div>
-          </div>
-          <div class="skills-container">
-          <div class="skill-card">
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaXXptBqOar_BEgi-MqyLYrsfaoVlXfpFzPqAR62UeGg&s' alt='logo'/>
-              <div class="skill-level">78%</div>
-              <h1 class="skill-name">NodeJS</h1>
-              <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
-          </div>
-          </div>
-          hi
+     <h1 className="project-heading" style={{ textAlign: 'center' }}>
+  Professional <strong style={{ color: 'purple' }}>Skillset </strong>
+</h1>
 
-        </div>
+
+
+<Techstack/>
+<h1 className="project-heading" style={{ textAlign: 'center', color: 'purple' }}>
+  <strong style={{ color: 'purple' }}>Tool</strong> I Use
+</h1>
+
+
+       
+<Toolstack/>
+<h1 className="project-heading" style={{ textAlign: 'center' }}>
+  Days <strong style={{ color: 'purple' }}>I Code </strong>
+</h1>
+<Github/>
+
+
       {/* </div> */}
       <div className='work-container'>
 
@@ -153,29 +100,37 @@ const Projects = () => {
                     <SiExpress />
                     <SiMongodb />
                     <FaReact />
+                    <SiReactrouter/>
                     <SiTailwindcss />
                     {/* <SiMaterialui /> */}
                   </div>
+
                   <div>
-                    <a
-                      href="https://study-notion-2.vercel.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span type="button" className="btns onbt onbt">
-                        See this Live
-                      </span>
-                    </a>
-                    <a
-                      href="https://github.com/golu098/StudyNotionMERN"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span type="button" className="btns onbt">
-                        View Code
-                      </span>
-                    </a>
-                  </div>
+  <a
+    href="https://study-notion-2.vercel.app/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <button type="button" class="btns1 green">
+    <BsGithub className="github-icon" />
+See this Live
+    </button>
+  </a>
+  <a
+    href="https://github.com/golu098/StudyNotionMERN"
+    target="_blank"
+    rel="noreferrer"
+  >
+    {/* &nbsp;&nbsp;&nbsp; */}
+        <button type="button" class="btns1 green">
+        < CgWebsite className="demo-icon"/>
+
+       View Code
+    </button>
+  </a>
+</div>
+
+                  
                 </div>
               </div>
             </div>
@@ -196,31 +151,40 @@ const Projects = () => {
 
                   <p>I've developed a comprehensive video calling chat app that seamlessly integrates features such as real-time messaging, high-quality video calls, and screen sharing. With a user-friendly interface and robust functionality, users can engage in dynamic conversations, making it a versatile platform for both personal and professional communication. Experience a smooth and immersive communication experience with our app's innovative features and reliable performance.                  </p>
                   <div>
+                  <SiHtml5 />
+
                     <DiCss3 />
-                    <SiHtml5 />
                     <IoLogoJavascript />
                     <SiTailwindcss />
+                    <SiReactrouter/>
+                    <SiReact/>
+                    <SiApifox/>
                   </div>
+
                   <div>
-                    <a
+  <a
                       href='https://sightstream.vercel.app/'
                       target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span type="button" className="btns onbt">
-                        See this Live
-                      </span>
-                    </a>
-                    <a
-                      href="#as"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span type="button" className="btns onbt">
-                        View Code
-                      </span>
-                    </a>
-                  </div>
+    rel="noreferrer"
+  >
+    <button type="button" class="btns1 green">
+    <BsGithub className="github-icon" />
+See this Live
+    </button>
+  </a>
+  <a
+    href="https://github.com/golu098/StudyNotionMERN"
+    target="_blank"
+    rel="noreferrer"
+  >
+    {/* &nbsp;&nbsp;&nbsp; */}
+        <button type="button" class="btns1 green">
+        < CgWebsite className="demo-icon"/>
+
+       View Code
+    </button>
+  </a>
+</div>
                 </div>
               </div>
             </div>
@@ -246,25 +210,29 @@ const Projects = () => {
                     <IoLogoJavascript />
                   </div>
                   <div>
-                    <a
+  <a
                       href='https://modern-weather-app.vercel.app/'
                       target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span type="button" className="btns onbt">
-                        See this Live
-                      </span>
-                    </a>
-                    <a
+    rel="noreferrer"
+  >
+    <button type="button" class="btns1 green">
+    <BsGithub className="github-icon" />
+See this Live
+    </button>
+  </a>
+  <a
                       href="https://github.com/golu098/Modern_weather_app"
                       target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span type="button" className="btns onbt">
-                        View Code
-                      </span>
-                    </a>
-                  </div>
+    rel="noreferrer"
+  >
+    {/* &nbsp;&nbsp;&nbsp; */}
+        <button type="button" class="btns1 green">
+        < CgWebsite className="demo-icon"/>
+
+       View Code
+    </button>
+  </a>
+</div>
                 </div>
               </div>
             </div>
@@ -296,25 +264,29 @@ const Projects = () => {
                     <SiTailwindcss />
                   </div>
                   <div>
-                    <a
+  <a
                       href="https://vidyarthi-khata.vercel.app/"
                       target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span type="button" className="btns onbt onbt">
-                        See this Live
-                      </span>
-                    </a>
-                    <a
+    rel="noreferrer"
+  >
+    <button type="button" class="btns1 green">
+    <BsGithub className="github-icon" />
+See this Live
+    </button>
+  </a>
+  <a
                       href="https://github.com/golu098/vidyarthi-khata"
                       target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span type="button" className="btns onbt">
-                        View Code
-                      </span>
-                    </a>
-                  </div>
+    rel="noreferrer"
+  >
+    {/* &nbsp;&nbsp;&nbsp; */}
+        <button type="button" class="btns1 green">
+        < CgWebsite className="demo-icon"/>
+
+       View Code
+    </button>
+  </a>
+</div>
                 </div>
               </div>
             </div>
@@ -380,33 +352,39 @@ const Projects = () => {
 
                   </p>
                   <div>
+                  <SiHtml5 />
+                    <DiCss3 />
+                    <SiTailwindcss />
+                 <SiReact/>
+                 <SiReactrouter/>
                     <SiNodedotjs />
                     <SiExpress />
                     <SiMongodb />
-                    <SiHtml5 />
-                    <DiCss3 />
-                    <SiTailwindcss />
-                  </div>
-                  <div>
-                    <a
-                      href="#a"
+                     </div>
+                     <div>
+  <a
+                      href='https://sightstream.vercel.app/'
                       target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span type="button" className="btns onbt onbt">
-                        See this Live
-                      </span>
-                    </a>
-                    <a
+    rel="noreferrer"
+  >
+    <button type="button" class="btns1 green">
+    <BsGithub className="github-icon" />
+See this Live
+    </button>
+  </a>
+  <a
                       href="https://github.com/golu098/test-1"
                       target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span type="button" className="btns onbt">
-                        View Code
-                      </span>
-                    </a>
-                  </div>
+    rel="noreferrer"
+  >
+    {/* &nbsp;&nbsp;&nbsp; */}
+        <button type="button" class="btns1 green">
+        < CgWebsite className="demo-icon"/>
+
+       View Code
+    </button>
+  </a>
+</div>
                 </div>
               </div>
             </div>
@@ -433,25 +411,29 @@ const Projects = () => {
                     <SiTailwindcss />
                   </div>
                   <div>
-                    <a
+  <a
                       href="https://pulseplus.vercel.app/"
                       target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span type="button" className="btns onbt onbt">
-                        See this Live
-                      </span>
-                    </a>
-                    <a
+    rel="noreferrer"
+  >
+    <button type="button" class="btns1 green">
+    <BsGithub className="github-icon" />
+See this Live
+    </button>
+  </a>
+  <a
                       href="https://github.com/golu098/pulseplus"
                       target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span type="button" className="btns onbt">
-                        View Code
-                      </span>
-                    </a>
-                  </div>
+    rel="noreferrer"
+  >
+    {/* &nbsp;&nbsp;&nbsp; */}
+        <button type="button" class="btns1 green">
+        < CgWebsite className="demo-icon"/>
+
+       View Code
+    </button>
+  </a>
+</div>
                 </div>
               </div>
             </div>
@@ -459,7 +441,7 @@ const Projects = () => {
         </div>
 
       </div>
-
+<Footer/>
     </>
 
   );

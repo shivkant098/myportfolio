@@ -4,6 +4,7 @@ import { faBriefcase,  faStar } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import "./about.css";
+import Footer from './Footer';
 const workIcon = {
   icon: <FontAwesomeIcon icon={faBriefcase} />,
   iconStyle: { background: 'black', color: 'white' }
@@ -16,6 +17,13 @@ const starIcon = {
 
 const About = () => {
   const timeline = [
+    {
+      icon: workIcon,
+      date: 'Mar 2022-Present',
+      title: 'Freelancer',
+      subtitle: 'Freelancing',
+      desc:'In my freelancing journey, I specialize in crafting innovative applications and conducting thorough data analysis. With a keen eye for detail and a passion for technology, I excel in developing user-friendly applications that cater to specific needs. ',
+    },
     {
       icon: workIcon,
       date: 'Nov 2021 - Feb 2022',
@@ -38,6 +46,7 @@ const About = () => {
 
 
   return (
+    <>
     <div>
       <div className='about-intro'>
         <div className='about-img'>
@@ -138,6 +147,8 @@ const About = () => {
       </div>
     </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 
