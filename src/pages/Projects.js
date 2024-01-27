@@ -5,6 +5,8 @@ import { FaReact } from "react-icons/fa";
 import Techstack from './Techstack';
 import Toolstack from './Toolstack';
 import Github from "./Github";
+import Leetcode from "./Leetcode";
+
 import { BsGithub } from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
 
@@ -67,6 +69,7 @@ const Projects = () => {
   Days <strong style={{ color: 'purple' }}>I Code </strong>
 </h1>
 <Github/>
+    <Leetcode/>
 
 
       {/* </div> */}
