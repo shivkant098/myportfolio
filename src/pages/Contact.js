@@ -73,7 +73,7 @@ const Contact = () => {
 <textarea name="Messages" cols="10" rows="20" required autoComplete="off" placeholder="Enter Your Message"/>
 <input type="submit" value="send"/>
   </form>
-  
+  {/* end */}
   </div>
 <Footer/>
       </div>
