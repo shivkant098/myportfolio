@@ -19,9 +19,14 @@ const Contact = () => {
         <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHQxb2VoanpiMnMxYjk5b2FibjY2Y2NtZjBnc242cWQwdzFrYXdjbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/K77lWFobBeX5xcLsdp/giphy.gif" alt="img" />
       </div>
       <div className='contact-text'>
-      <a href="https://drive.google.com/file/d/1oB7yEr4T0w7HyEG4ydJuaFEQBJfWpQ0R/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="button">
-      Resume
-    </a>
+      <div class="button-container">
+  <a href="https://drive.google.com/file/d/1oB7yEr4T0w7HyEG4ydJuaFEQBJfWpQ0R/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button">
+    SDE Resume
+  </a>
+  <a href="https://drive.google.com/file/d/1hl4LgywYF_kat2MSiSvrdAp7gMrrNRIm/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button1">
+     Data Analysts Resume
+  </a>
+</div>
 
         <p className="social-container">
           <a

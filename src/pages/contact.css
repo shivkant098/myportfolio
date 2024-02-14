@@ -71,8 +71,12 @@
   color: /* Your theme colors */;
   transform: scale(0.9);
 }
+.button-container {
+  display: flex;
+  gap: 80px; /* Sets the gap between buttons */
+}
 
-.button {
+.button, .button1 {
   display: inline-block;
   padding: 15px 25px;
   font-size: 24px;
@@ -81,15 +85,17 @@
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color:rgb(23,133,115);
+  background-color: rgb(23, 133, 115);
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px rgb(52,69,77);
+  box-shadow: 0 9px rgb(52, 69, 77);
 }
 
-.button:hover {background-color: rgb(23,133,115)}
+.button:hover, .button1:hover {
+  background-color: rgb(23, 133, 115);
+}
 
-.button:active {
+.button:active, .button1:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
