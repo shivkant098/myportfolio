@@ -30,7 +30,7 @@
 
     /* border: 2px solid #ff5454; Light red border on hover */
 
-    box-shadow: 0 0 10px rgba(255, 84, 84, 0.5); /* Shadow on hover */
+    box-shadow: 0 0 10px rgba(255, 84, 84, 0.5)!important; /* Shadow on hover */
 }
   
   /* Responsive styles for smaller screens */
@@ -111,7 +111,7 @@
               content: '';
               height: 60px;
               width: 2px;
-              border-left: 2px solid #70d6ff;
+              border-left: 2px solid #70d6ff !important;
               transform: rotate(-45deg);
               position: absolute;
               right: 30px;
@@ -121,13 +121,13 @@
               background-color: black;
               height: 20px;
               width: 20px;
-              border: 6px solid #70d6ff;
+              border: 6px solid #70d6ff !important;
               border-radius: 50%;
               right: 0;
           }   
           .Yearly-timeline .timeline-content{
               color: white;
-              background: #70d6ff;
+              background: #70d6ff !important;
               text-align: center;
               min-height: 170px;
               padding: 30px 35px 35px;
@@ -182,24 +182,24 @@
           .Yearly-timeline .timeline:nth-child(even) .timeline-content{ border-radius: 15px 15px 15px 0; }
           .Yearly-timeline .timeline:nth-child(4n+2):before,
           .Yearly-timeline .timeline:nth-child(4n+2):after{
-              border-color: #ff70a6;
+              border-color: #ff70a6 !important;
           }
           .Yearly-timeline .timeline:nth-child(4n+2) .timeline-content{
-              background: #ff70a6;
+              background: #ff70a6 !important;
           }
           .Yearly-timeline .timeline:nth-child(4n+3):before,
           .Yearly-timeline .timeline:nth-child(4n+3):after{
-              border-color: #ff9770;
+              border-color: #ff9770 !important;
           }
           .Yearly-timeline .timeline:nth-child(4n+3) .timeline-content{
-              background: #ff9770;
+              background: #ff9770 !important;
           }
           .Yearly-timeline .timeline:nth-child(4n+4):before,
           .Yearly-timeline .timeline:nth-child(4n+4):after{
-              border-color: #ffd670;
+              border-color: #ffd670 !important;
           }
           .Yearly-timeline .timeline:nth-child(4n+4) .timeline-content{
-              background:#ffd670;
+              background:#ffd670 !important;
           }
           @media screen and (max-width:767px){
               .Yearly-timeline .timeline{

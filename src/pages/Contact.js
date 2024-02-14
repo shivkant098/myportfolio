@@ -70,7 +70,7 @@ const Contact = () => {
 <form action=" https://formspree.io/f/mpzgnbqr" method="POST" className="contact-inputs">
 <input type="text" placeholder="username" name="username"required autoComplete="off"/>
 <input type="email" placeholder="Email" name="Email"required autoComplete="off"/>
-<textarea name="Messages" cols="50" rows="20" required autoComplete="off" placeholder="Enter Your Message"/>
+<textarea name="Messages" cols="10" rows="20" required autoComplete="off" placeholder="Enter Your Message"/>
 <input type="submit" value="send"/>
   </form>
   
